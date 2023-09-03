@@ -1,0 +1,32 @@
+.list-item {
+  list-style-type: none;
+  margin-left: 16px;
+  margin-right: 16px;
+  border: none;
+  padding-bottom: 7px;
+}
+
+.tab-item-button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.active-list-item {
+  border-bottom: 3px solid #fec653;
+}
+
+.text-color {
+  color: #fec653;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-item-button {
+    font-size: 20px;
+  }
+}
